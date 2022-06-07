@@ -6,7 +6,7 @@ const try_get_frame = function(){
    console.log("Try get");
    
    if(_frames.length ==0){
-      setTimeout(try_get_frame,1000);
+      setTimeout(()=>{try_get_frame()},1000);
    }else{
       console.log("Inject");
    
