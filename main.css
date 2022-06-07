@@ -1,0 +1,93 @@
+
+
+@media screen and (min-height: 768px) {
+    #comp-l2r0cxog{
+        height: 70vh !important;
+    }
+}
+
+
+@media screen and (max-height: 768px) {
+    #comp-l2r0cxog{
+        height: 60vh !important;
+    }
+}
+@media screen and (min-width: 1820px) {
+  #comp-l2quj7f4, [data-mesh-id=comp-l2quj7f4inlineContent],#comp-l2quj7g8{
+        width: 51vw !important;
+    }
+    
+}
+@media screen and (max-width: 1820px) and (min-width: 1660px){
+  #comp-l2quj7f4, [data-mesh-id=comp-l2quj7f4inlineContent],#comp-l2quj7g8{
+        width: 48vw !important;
+    }
+}
+
+@media screen and (max-width: 1660px) and (min-width: 1460px){
+  #comp-l2quj7f4, [data-mesh-id=comp-l2quj7f4inlineContent],#comp-l2quj7g8{
+        width: 44vw !important;
+    }
+}
+
+@media screen and (max-width: 1460px) and (min-width: 1280px){
+  #comp-l2quj7f4, [data-mesh-id=comp-l2quj7f4inlineContent],#comp-l2quj7g8{
+        width: 39vw !important;
+    }
+}
+
+@media screen and (max-width: 1280px) and (min-width: 1160px){
+  #comp-l2quj7f4, [data-mesh-id=comp-l2quj7f4inlineContent],#comp-l2quj7g8{
+        width: 35vw !important;
+    }
+}
+@media screen and (max-width: 1160px) and (min-width: 1024px){
+  #comp-l2quj7f4, [data-mesh-id=comp-l2quj7f4inlineContent],#comp-l2quj7g8{
+        width: 28vw !important;
+    }
+}
+
+@media screen and (max-width: 1024px ) and (min-width: 600px) {
+  #comp-l2quj7f4, [data-mesh-id=comp-l2quj7f4inlineContent],#comp-l2quj7g8{
+        width: 25vw !important;
+    }
+    #comp-l2tihk87{
+        width: 90px !important;
+        height: 90px !important;
+        
+    }
+}
+
+@media screen and (min-width: 600px) {
+    #comp-l2quj7f4, [data-mesh-id=comp-l2quj7f4inlineContent],#comp-l2quj7g8{
+        left: 0;
+        margin-left: initial;
+        margin-right: auto;
+    }
+    .cart-content ul::-webkit-scrollbar{
+        display:visible;
+    }
+}
+@media screen and (max-width: 600px) {
+    ._3blhp svg{
+        color: rgb(127, 61, 84)!important;
+    }
+    
+    select{
+        color: rgb(127, 61, 84)!important;
+        border-color: rgb(127, 61, 84)!important;
+    }
+    #comp-l43kex1s{
+        position: fixed;
+        right: 20px;
+        bottom: 10px;
+        z-index: 1;
+    }
+    #TPASection_l2quj75b{
+        background: #262626;
+    }
+    .stsfb6.owTK6E--mobile select{
+        top: 20px;
+    }
+    
+}
