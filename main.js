@@ -1,6 +1,8 @@
+
 window.onload = function(){
    try_get_frame();
 }
+
 const try_get_frame = function(){
    let _frames = document.querySelectorAll('iframe');
    console.log("Try get");
@@ -17,6 +19,7 @@ const try_get_frame = function(){
          cssLink.type = "text/css"; 
          if ('document' in _frame && _frame['document'])
             _frame.document.body.appendChild(cssLink);
+
       });
    }
    
