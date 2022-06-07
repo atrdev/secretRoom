@@ -65,7 +65,7 @@
         margin-right: auto;
     }
     .cart-content ul::-webkit-scrollbar{
-        display:visible;
+        display: block;
     }
 }
 @media screen and (max-width: 600px) {
@@ -90,4 +90,8 @@
         top: 20px;
     }
     
+}
+
+.cart-content ul::-webkit-scrollbar {
+    display: block;
 }
