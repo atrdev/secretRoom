@@ -3,9 +3,13 @@ window.onload = function(){
 }
 const try_get_frame = function(){
    let _frames = document.querySelectorAll('iframe');
+   console.log("Try get");
+   
    if(frame.length ==0){
       setTimeout(try_get_frame,1000);
    }else{
+      console.log("Inject");
+   
       _frames.forEach((_frame)=>{
          var cssLink = document.createElement("link");
          cssLink.href = "https://cdn.jsdelivr.net/gh/atrdev/secretRoom/main.css"; 
