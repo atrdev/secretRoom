@@ -18,9 +18,10 @@ const try_get_frame = function(){
          cssLink.rel = "stylesheet"; 
          cssLink.type = "text/css"; 
          debugger;
-         _frame.onload = function(){
-            _frame.document.body.appendChild(cssLink);
+         _frame.contentWindow.onload = function(){
+            _frame.contentWindow.document.body.appendChild(cssLink);
          }
+          _frame.contentWindow.document.body.appendChild(cssLink);
       });
    }
    
