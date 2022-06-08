@@ -17,6 +17,7 @@ const try_get_frame = function(){
          cssLink.href = "https://cdn.jsdelivr.net/gh/atrdev/secretRoom/main.css"; 
          cssLink.rel = "stylesheet"; 
          cssLink.type = "text/css"; 
+         debugger;
          if ('document' in _frame && _frame['document'])
             _frame.document.body.appendChild(cssLink);
 
