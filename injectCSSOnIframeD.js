@@ -19,9 +19,9 @@ const try_get_frame = function(){
          cssLink.type = "text/css"; 
          debugger;
          _frame.contentWindow.onload = function(){
-            _frame.contentWindow.document.body.appendChild(cssLink);
+            _frame.contentDocument.body.appendChild(cssLink);
          }
-          _frame.contentWindow.document.body.appendChild(cssLink);
+          _frame.contentDocument.body.appendChild(cssLink);
       });
    }
    
